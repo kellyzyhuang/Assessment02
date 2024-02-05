@@ -20,12 +20,51 @@
   font-size: 20px; 
   text-decoration: none; 
   border-bottom: 2px solid var(--dark-red); 
-  color: var(--white); 
+  color: var(--grey); 
   padding: 4px; 
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifs
 }
 
 .a:hover {
   border-bottom: none;  
+  letter-spacing: 1px; 
+  text-shadow: var(--yellow-orange) 2px 2px 10px; 
 }
+
+.menuIcon {
+  transform: translate(-355px, 10px) scale(-0.75); 
+}
+
+/* tablet */
+@media (min-width: 701px) and (max-width:1120px) {
+.menuIcon {
+  transform: scale(0.75) translate(-130px, 6px); 
+}
+
+.a {
+  font-size: 20px; 
+}
+
+.list {
+  transform: translate(50px); 
+  gap: 40px; 
+}
+}
+
+/* mobile */
+@media (max-width: 700px) {
+.a {
+  font-size: 14px; 
+}
+
+.list {
+  gap: 15px; 
+  transform: translate(120px, -4px); 
+}
+
+.menuIcon {
+  transform: scale(-0.50) translate(-90px); 
+}
+}
+
 

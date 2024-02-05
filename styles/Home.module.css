@@ -59,5 +59,64 @@
 .lanterns {
   position: absolute; 
   transform: scale(2) translate(50px, -80px); 
-  z-index: -1; 
 }
+
+/* tablet */
+@media (min-width: 701px) and (max-width:1120px) {
+
+.dragonright {
+  transform: scale(0.50) translate(330px, -1410px); 
+}
+  
+.dragonleft {
+  transform: scale(-0.50) translate(930px, 1410px) rotate(180deg); 
+}
+
+.lanterns {
+  transform: scaleX(2.25) scaleY(1.5) translate(45px, -120px); 
+  z-index: 1; 
+}
+
+.table {
+  transform: translate(100px); 
+}
+
+.input {
+  transform: translate(100px, 5px); 
+}
+
+.main {
+  width: 100%; 
+}
+}
+
+
+/* mobile */
+
+@media (max-width: 700px) {
+
+.dragonleft {
+  display: none; 
+}
+
+.dragonright {
+  display: none; 
+}
+
+.lanterns {
+  transform: scaleX(-1.10) scaleY(-0.9) rotate(180deg) translate(95px, -190px); 
+}
+
+.table {
+  transform: translate(100px, -20px); 
+}
+
+.input {
+  transform: translate(100px, -20px); 
+}
+
+.main {
+  max-height: 160vh; 
+}
+}
+

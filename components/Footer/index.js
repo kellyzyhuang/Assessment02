@@ -2,6 +2,6 @@ import styles from './Footer.module.css'
 
 export default function Footer() {
   return(
-    <footer className={styles.footer}><p className={styles.footertext}>© Kelly Huang</p></footer>
+    <footer className={styles.footer}><p className={styles.footerText}>© Kelly Huang</p></footer>
   )
 }

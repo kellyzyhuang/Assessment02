@@ -1,4 +1,4 @@
-.dragonsteamleft {
+.dragonSteamLeft {
   position: relative; 
   display: flex; 
   z-index: 1; 
@@ -6,7 +6,7 @@
   transform: translate(-380px, -320px) rotate(90deg);  
 }
 
-.dragonsteamleft span {
+.dragonSteamLeft span {
   position: absolute; 
   bottom: 50px; 
   display: block; 
@@ -49,4 +49,20 @@
   {
     transform: translateY(-500px) scaleX(10); 
   }
+}
+
+/* mobile */
+@media (max-width: 700px) {
+
+.dragonSteamLeft {
+  display: none; 
+}  
+}
+
+/* tablet */
+@media (min-width: 701px) and (max-width:1120px) {
+
+.dragonSteamLeft {
+  transform: translate(-300px, -300px) rotate(90deg); 
+}
 }

@@ -3,6 +3,8 @@
   --dark-red: #721212; 
   --black: #000000; 
   --white: #ffffff; 
+  --grey: #d9d3d3;
+  --yellow-orange: #ef862a;  
 }
 
 body, html {
@@ -12,3 +14,4 @@ body, html {
   font-family: Arial, Helvetica, sans-serif; 
   max-height: 60vh; 
 }
+

@@ -2,11 +2,23 @@
   display: flex; 
   justify-content: center; 
   background-color: var(--black); 
-  color:var(--white); 
+  color: var(--white); 
   margin: 0;
   padding: 50px; 
 }
 
-.footertext {
+.footerText {
   transform: translate(100px, 50px); 
+}
+
+/* mobile */
+@media (max-width: 700px) {
+.footerText { 
+  transform: translate(80px); 
+}
+
+.footer {
+  margin: 0; 
+  padding: 0; 
+}
 }

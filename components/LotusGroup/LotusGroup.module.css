@@ -1,0 +1,17 @@
+/* mobile */
+@media (max-width: 700px) {
+.lotuses {
+  transform: scaleY(0.35) scaleX(0.40) translate(-100px, -2000px); 
+  display: flex; 
+  flex-wrap: wrap; 
+}
+}
+
+/* tablet */
+@media (min-width: 701px) and (max-width:1120px) {
+.lotuses {
+  display: flex; 
+  flex-wrap: wrap; 
+  transform: scaleY(1) scaleX(0.8) translate(-60px, -200px); 
+}
+}
