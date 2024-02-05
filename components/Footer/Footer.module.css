@@ -1,0 +1,12 @@
+.footer {
+  display: flex; 
+  justify-content: center; 
+  background-color: var(--black); 
+  color:var(--white); 
+  margin: 0;
+  padding: 50px; 
+}
+
+.footertext {
+  transform: translate(100px, 50px); 
+}

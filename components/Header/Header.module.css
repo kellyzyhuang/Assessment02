@@ -1,0 +1,31 @@
+.list {
+  display: flex; 
+  flex-direction: row; 
+  list-style: none; 
+  gap: 90px; 
+  justify-content: center; 
+  transform: translate(80px); 
+  font-weight: bold; 
+  z-index: 1000; 
+}
+
+.header {
+  display: flex; 
+  background-color: var(--black); 
+  height: 10vh; 
+  justify-content: center; 
+}
+
+.a {
+  font-size: 20px; 
+  text-decoration: none; 
+  border-bottom: 2px solid var(--dark-red); 
+  color: var(--white); 
+  padding: 4px; 
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifs
+}
+
+.a:hover {
+  border-bottom: none;  
+}
+
