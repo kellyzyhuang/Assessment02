@@ -4,9 +4,10 @@
 - A01380241
 ## Description
 - The theme of my application is the 2024 Lunar New Year 
-- Bit 1 = Rat
-- Bit 2 = Ox
-- Bit 4 = Tiger
-- Bit 8 = Rabbit
-- Bit 16 = Dragon
-- Bit 32 = Snake 
+- Each bit represents one of the zodiac animals 
+  - Bit 1 = Rat
+  - Bit 2 = Ox
+  - Bit 4 = Tiger
+  - Bit 8 = Rabbit
+  - Bit 16 = Dragon
+  - Bit 32 = Snake 
